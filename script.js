@@ -1,5 +1,5 @@
 const products=[
- {name:"Premium Chiffon",type:"Chiffon",tag:"NEW",img:"images/Premium Chiffon.avif"},
+ {name:"Premium Chiffon",type:"Chiffon",tag:"NEW",img:"images/premium chiffon.avif"},
  {name:"Classic Pattern",type:"Pattern",tag:"POPULAR",img:"images/Classic Pattern.avif"},
  {name:"Abstract Print",type:"Abstract",tag:"TRENDING",img:"images/Abstract Print.avif"},
  {name:"Multi Print Fabric",type:"Pattern",tag:"NEW",img:"images/Multi Print Fabric.avif"},
