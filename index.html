@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="KFAB Exclusive Fabrics — premium fabrics, patterns, chiffon and more. Browse the collection and order directly on WhatsApp.">
+  <title>KFAB | Exclusive Fabrics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="#home"><span>K</span>FAB<small>EXCLUSIVE FABRICS</small></a>
+      <nav id="navMenu">
+        <a href="#home">Home</a><a href="#collections">Collections</a><a href="#fabrics">Fabrics</a><a
+          href="#about">About</a><a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <label class="search"><input id="searchInput" type="search"
+            placeholder="Search fabrics..."><span>⌕</span></label>
+        <a class="wa-icon" href="https://wa.me/2347084750902" target="_blank" aria-label="WhatsApp">◔</a>
+        <button class="cart" id="cartBtn">Bag <b id="cartCount">0</b></button>
+        <button class="menu-btn" id="menuBtn">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">PREMIUM FABRIC COLLECTION</p>
+        <h1>Quality Fabrics<br><em>for Every Style</em></h1>
+        <p class="hero-text">Explore exclusive chiffon, abstract prints, plain fabrics and more — selected for makers
+          who care about quality.</p>
+        <div class="hero-buttons"><a class="btn primary" href="#fabrics">Explore Collection <span>→</span></a><a
+            class="btn light"
+            href="https://wa.me/2347084750902?text=Hello%20KFAB%2C%20I%27d%20like%20to%20ask%20about%20your%20fabric%20collection."
+            target="_blank">◔ Order on WhatsApp</a></div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="container benefits-grid">
+        <div><strong>◇</strong><span><b>Premium Quality</b><small>Carefully selected materials</small></span></div>
+        <div><strong>▱</strong><span><b>Wide Variety</b><small>1000+ fabric options</small></span></div>
+        <div><strong>⌖</strong><span><b>Local Store</b><small>#39 Ndoki by Mosque Aba</small></span></div>
+        <div><strong>◔</strong><span><b>Easy Ordering</b><small>Direct WhatsApp support</small></span></div>
+      </div>
+    </section>
+
+    <section class="section" id="collections">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow dark">SHOP BY CATEGORY</p>
+            <h2>Explore Our <em>Fabric Collections</em></h2>
+          </div><a href="#fabrics">View All →</a>
+        </div>
+        <div class="categories">
+          <button class="category" data-filter="Plain"><img
+              src="images/Plain.avif"><b>Plain
+              Fabrics</b></button>
+          <button class="category" data-filter="Pattern"><img
+              src="images/Pattern.avif"><b>Pattern
+              Fabrics</b></button>
+          <button class="category" data-filter="Abstract"><img
+              src="images/Abstract.avif"><b>Abstract
+              Prints</b></button>
+          <button class="category" data-filter="Chiffon"><img
+              src="images/Chiffon.avif"><b>Chiffon</b></button>
+          <button class="category" data-filter="Lace"><img
+              src="images/Lace.avif"><b>Lace
+              Fabrics</b></button>
+          <button class="category" data-filter="Cotton"><img
+              src="images/Cotton.avif"><b>Cotton</b></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products-section" id="fabrics">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow dark">FEATURED FABRICS</p>
+            <h2>Popular <em>Choices</em></h2>
+          </div>
+          <div class="filters"><button class="active" data-filter="All">All</button><button
+              data-filter="Chiffon">Chiffon</button><button data-filter="Pattern">Patterns</button><button
+              data-filter="Plain">Plain</button><button data-filter="Abstract">Abstract</button></div>
+        </div>
+        <div class="products" id="productGrid"></div>
+        <p class="no-results" id="noResults">No fabrics found. Try another search.</p>
+      </div>
+    </section>
+
+    <section class="promo" id="about">
+      <div class="promo-bg"></div>
+      <div class="container promo-content">
+        <div>
+          <p class="eyebrow">KFAB EXCLUSIVE</p>
+          <h2>Fabrics that make<br><em>your style stand out.</em></h2>
+          <p>From elegant chiffon to bold prints, discover materials ready for your next creation.</p><a
+            class="btn primary" href="#fabrics">Browse Fabrics →</a>
+        </div>
+        <ul>
+          <li>✓ High quality materials</li>
+          <li>✓ Available in Aba</li>
+          <li>✓ Easy WhatsApp orders</li>
+          <li>✓ Fresh designs</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-box">
+        <div>
+          <p class="eyebrow dark">LET'S CONNECT</p>
+          <h2>Ready to find your next fabric?</h2>
+          <p>Have questions or want to place an order? Chat directly with KFAB.</p>
+        </div>
+        <a class="btn whatsapp"
+          href="https://wa.me/2347084750902?text=Hello%20KFAB%2C%20I%27d%20like%20to%20place%20an%20order."
+          target="_blank">◔ Chat on WhatsApp <span>→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer"><a class="logo" href="#home"><span>K</span>FAB<small>EXCLUSIVE FABRICS</small></a>
+      <p>© 2026 KFAB. Exclusive fabrics in Aba.</p>
+      <p>#39 Ndoki by Mosque, Aba</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">Added to your shortlist.</div>
+  <script src="script.js"></script>
+</body>
+
+</html>
